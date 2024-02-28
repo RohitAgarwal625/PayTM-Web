@@ -65,7 +65,7 @@ export const Signup = () => {
               navigate("/signin")
             }
 
-            catch(error){ console.error("Signup Failed testing for 2nd commit",error)
+            catch(error){ console.error("Signup Failed ",error)
       //       if (error.response && error.response.data && error.response.data.message) {{
       //   setEmailIncorrect(error.response.data.message);}
       // } else {
